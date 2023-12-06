@@ -1,0 +1,15 @@
+.error.alert {
+  padding: 5px 9px;
+}
+.error.alert.alert-warning.warning {
+    background: #fff3cd;
+    color: #000;
+  }
+  .error.alert.alert-critical.critical {
+    background: #f8d7da;
+    color: #000;
+  }
+  .error.alert.alert {
+    background: #d1ecf1;
+    color: #000;
+  }

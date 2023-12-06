@@ -1,0 +1,39 @@
+header {
+  /* fallback for old browsers */
+  background: #fccb90;
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(
+    to right,
+    #ee7724,
+    #d8363a,
+    #dd3675,
+    #b44593
+  );
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+  padding: 12px 0px 0px 12px;
+  color: #fff;
+}
+header .navbar {
+  /*background: #EE7778;*/
+  padding: 0px;
+  margin-top: 10px;
+}
+header .navbar li {
+  background: #ee7724;
+  color: #fff;
+  border-radius: 9px 9px 0px 0px;
+  padding: 3px 10px !important;
+  margin-right: 11px;
+}
+header .navbar li a {
+    padding: 4px 0px; color:#fff;
+  }
+
+  header .navbar li a:hover {
+    color: #fff;
+  }
+header .navbar li:hover{ background: linear-gradient(to right,  #dd3675, #b44593, #ee7724, #d8363a)}
+.navbar-brand.Logo_title {
+  color: #fff!important;
+}

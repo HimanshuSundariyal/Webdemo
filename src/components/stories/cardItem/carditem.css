@@ -1,0 +1,16 @@
+.card_item {
+    min-height: 325px;
+    margin: 10px 0px;
+    background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+    border: 2px solid #ccc;
+    border-radius: 19px;
+    box-shadow: 0px 1px 6px 3px #ccc;
+    max-width: 320px;
+  }
+  .card_item .card {background: none!important; border: none!important;}
+.card p {color: #fff;}
+.card_item .card-body {
+  padding: 6px 14px;
+}
+
+.card_item img {width:100%}
